@@ -28,3 +28,6 @@ As well as the video tutorial here: (Notice that they were using other DL librar
 https://www.youtube.com/watch?v=EaY5QiZwSP4
 
 Have fun! Try to make a small and powerful model and run a full loop!
+
+Another more complicated example is given in my universal pytorch for CNN code:
+https://github.com/FredHuangBia/PytorchDL
