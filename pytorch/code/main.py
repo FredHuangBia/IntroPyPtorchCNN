@@ -41,7 +41,7 @@ for numEpoch in range(20):
 		loss = criterion(opt, xml)
 		loss.backward()
 		optimizer.step()
-		avgLoss = (avgLoss*i + loss.data[0])/(i+1)
+		avgLoss = (avgLoss*i + loss.data.item())/(i+1)
 	print('AvgLoss: %f \n' %avgLoss)
 
 	"Save the trained model"
